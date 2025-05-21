@@ -1,15 +1,27 @@
+# Unity generated folders
 [Ll]ibrary/
 [Tt]emp/
+[Oo]bj/
 [Bb]uild/
 [Bb]uilds/
-[Pp]ackages/
+[Ll]ogs/
+
+# Package Manager - keep manifest and json files but ignore lock file
+!Packages/manifest.json
+!Packages/*.json
+Packages/packages-lock.json
+
+# Object files
 .obj/
-*.user
+
+# Visual Studio / MonoDevelop / Rider project files
 *.csproj
 *.unityproj
 *.sln
 *.suo
 *.tmp
+*.user
+*.userprefs
 *.pidb
 *.booproj
 *.svd
@@ -17,3 +29,17 @@
 *.mdb
 *.opendb
 *.VC.db
+
+# IDE settings folders
+.vscode/
+.vs/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Crash reports and logs
+crash.log
+sysinfo.txt
+crashlytics-build.properties
