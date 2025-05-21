@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 4320e8026dc3f1746a219025de4d5e90
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8810319816945338133
+    second: SWAT1_2-removebg-preview_0
+  - first:
+      213: -6461454751083648259
+    second: SWAT1_2-removebg-preview_1
+  - first:
+      213: 725821084109857364
+    second: SWAT1_2-removebg-preview_2
+  - first:
+      213: 5189563152406741433
+    second: SWAT1_2-removebg-preview_3
+  - first:
+      213: 2679066714891994433
+    second: SWAT1_2-removebg-preview_4
+  - first:
+      213: -4738726530598172857
+    second: SWAT1_2-removebg-preview_5
+  - first:
+      213: -1679704262732674046
+    second: SWAT1_2-removebg-preview_6
+  - first:
+      213: -8316947560872553240
+    second: SWAT1_2-removebg-preview_7
+  - first:
+      213: -381684768581784807
+    second: SWAT1_2-removebg-preview_8
+  - first:
+      213: 3471148266322856654
+    second: SWAT1_2-removebg-preview_9
+  - first:
+      213: 5444037250272679752
+    second: SWAT1_2-removebg-preview_10
+  - first:
+      213: -744885625128077678
+    second: SWAT1_2-removebg-preview_11
+  - first:
+      213: -21344660388030180
+    second: SWAT1_2-removebg-preview_12
+  - first:
+      213: -3755436080717807308
+    second: SWAT1_2-removebg-preview_13
+  - first:
+      213: -9014193512682793159
+    second: SWAT1_2-removebg-preview_14
+  - first:
+      213: 2030784423852436835
+    second: SWAT1_2-removebg-preview_15
+  - first:
+      213: -8377176691462079435
+    second: SWAT1_2-removebg-preview_16
+  - first:
+      213: 8148588949240025196
+    second: SWAT1_2-removebg-preview_17
+  - first:
+      213: -8342437142819829001
+    second: SWAT1_2-removebg-preview_18
+  - first:
+      213: -1531918595907450295
+    second: SWAT1_2-removebg-preview_19
+  - first:
+      213: 438030649009500469
+    second: SWAT1_2-removebg-preview_20
+  - first:
+      213: 8074016231545450395
+    second: SWAT1_2-removebg-preview_21
+  - first:
+      213: 2130755562376233331
+    second: SWAT1_2-removebg-preview_22
+  - first:
+      213: 3650089711229824571
+    second: SWAT1_2-removebg-preview_23
+  - first:
+      213: -6283208229547751400
+    second: SWAT1_2-removebg-preview_24
+  - first:
+      213: 5843361597303465075
+    second: SWAT1_2-removebg-preview_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 388
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be873693ec47bb580800000000000000
+      internalID: -8810319816945338133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 388
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa266d532d4456a0800000000000000
+      internalID: -6461454751083648259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 388
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4526bd03e62a21a00800000000000000
+      internalID: 725821084109857364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 388
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b109ae0138050840800000000000000
+      internalID: 5189563152406741433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 291
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145c5be9bf4fd2520800000000000000
+      internalID: 2679066714891994433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 291
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7470af7c359ac3eb0800000000000000
+      internalID: -4738726530598172857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 291
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c0c1c5fdd70b8e0800000000000000
+      internalID: -1679704262732674046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 291
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4d3aa2244449c80800000000000000
+      internalID: -8316947560872553240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 291
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b6188a9bbf3baf0800000000000000
+      internalID: -381684768581784807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 291
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca03e015fefb2030800000000000000
+      internalID: 3471148266322856654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 198
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8475f7e090b1d8b40800000000000000
+      internalID: 5444037250272679752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 198
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29632f37872a9a5f0800000000000000
+      internalID: -744885625128077678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 198
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1958bbf42b24bff0800000000000000
+      internalID: -21344660388030180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 198
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431412028c202ebc0800000000000000
+      internalID: -3755436080717807308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 198
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93759eb62c627e280800000000000000
+      internalID: -9014193512682793159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 198
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36dee178cabce2c10800000000000000
+      internalID: 2030784423852436835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 199
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c78bcee2a4ebb80800000000000000
+      internalID: -8377176691462079435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 109
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60102ce97a951170800000000000000
+      internalID: 8148588949240025196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 109
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa03356e95b93c80800000000000000
+      internalID: -8342437142819829001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 149
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a0f1a47288dbae0800000000000000
+      internalID: -1531918595907450295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 109
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531f1f2fd82341600800000000000000
+      internalID: 438030649009500469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 131
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f21001cfaac0070800000000000000
+      internalID: 8074016231545450395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3718f9e05e6f19d10800000000000000
+      internalID: 2130755562376233331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 19
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e692cd049b7a230800000000000000
+      internalID: 3650089711229824571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 19
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818cef3b76f8dc8a0800000000000000
+      internalID: -6283208229547751400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SWAT1_2-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 19
+        width: 45
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374ae6dc96ac71150800000000000000
+      internalID: 5843361597303465075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0969ee69b7007084ea23c3ab1c190a3f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SWAT1_2-removebg-preview_0: -8810319816945338133
+      SWAT1_2-removebg-preview_1: -6461454751083648259
+      SWAT1_2-removebg-preview_10: 5444037250272679752
+      SWAT1_2-removebg-preview_11: -744885625128077678
+      SWAT1_2-removebg-preview_12: -21344660388030180
+      SWAT1_2-removebg-preview_13: -3755436080717807308
+      SWAT1_2-removebg-preview_14: -9014193512682793159
+      SWAT1_2-removebg-preview_15: 2030784423852436835
+      SWAT1_2-removebg-preview_16: -8377176691462079435
+      SWAT1_2-removebg-preview_17: 8148588949240025196
+      SWAT1_2-removebg-preview_18: -8342437142819829001
+      SWAT1_2-removebg-preview_19: -1531918595907450295
+      SWAT1_2-removebg-preview_2: 725821084109857364
+      SWAT1_2-removebg-preview_20: 438030649009500469
+      SWAT1_2-removebg-preview_21: 8074016231545450395
+      SWAT1_2-removebg-preview_22: 2130755562376233331
+      SWAT1_2-removebg-preview_23: 3650089711229824571
+      SWAT1_2-removebg-preview_24: -6283208229547751400
+      SWAT1_2-removebg-preview_25: 5843361597303465075
+      SWAT1_2-removebg-preview_3: 5189563152406741433
+      SWAT1_2-removebg-preview_4: 2679066714891994433
+      SWAT1_2-removebg-preview_5: -4738726530598172857
+      SWAT1_2-removebg-preview_6: -1679704262732674046
+      SWAT1_2-removebg-preview_7: -8316947560872553240
+      SWAT1_2-removebg-preview_8: -381684768581784807
+      SWAT1_2-removebg-preview_9: 3471148266322856654
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

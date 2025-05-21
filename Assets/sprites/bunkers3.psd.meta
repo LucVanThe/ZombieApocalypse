@@ -1,0 +1,2353 @@
+fileFormatVersion: 2
+guid: fa7a4ed4af7e9504e8257fb29075d86a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5679730676905869855
+    second: bunkers3_0
+  - first:
+      213: -3935787888523621553
+    second: bunkers3_1
+  - first:
+      213: -195038311962110802
+    second: bunkers3_2
+  - first:
+      213: -8215225617547536523
+    second: bunkers3_3
+  - first:
+      213: 7041359643466066635
+    second: bunkers3_4
+  - first:
+      213: -6598256338036976974
+    second: bunkers3_5
+  - first:
+      213: -1438206483634618909
+    second: bunkers3_6
+  - first:
+      213: 8112656244618131405
+    second: bunkers3_7
+  - first:
+      213: -4495405849609648159
+    second: bunkers3_8
+  - first:
+      213: -8894097639134688443
+    second: bunkers3_9
+  - first:
+      213: -7581597346647576023
+    second: bunkers3_10
+  - first:
+      213: -5116274940051785251
+    second: bunkers3_11
+  - first:
+      213: 3612527587658616189
+    second: bunkers3_12
+  - first:
+      213: -7275372673716824401
+    second: bunkers3_13
+  - first:
+      213: -470612245020737909
+    second: bunkers3_14
+  - first:
+      213: -6145314826708499711
+    second: bunkers3_15
+  - first:
+      213: -3219472136338105578
+    second: bunkers3_16
+  - first:
+      213: -1215137027548721275
+    second: bunkers3_17
+  - first:
+      213: 8540726804654121038
+    second: bunkers3_18
+  - first:
+      213: 8068751253568524351
+    second: bunkers3_19
+  - first:
+      213: -3727634088833961785
+    second: bunkers3_20
+  - first:
+      213: -2632446343017595864
+    second: bunkers3_21
+  - first:
+      213: 4307582589921552631
+    second: bunkers3_22
+  - first:
+      213: -94418379185779241
+    second: bunkers3_23
+  - first:
+      213: 2709184836169593299
+    second: bunkers3_24
+  - first:
+      213: -1825169146861800891
+    second: bunkers3_25
+  - first:
+      213: 8914090515646602682
+    second: bunkers3_26
+  - first:
+      213: -4298321383837635157
+    second: bunkers3_27
+  - first:
+      213: 5667275290097477778
+    second: bunkers3_28
+  - first:
+      213: -3886661239854360157
+    second: bunkers3_29
+  - first:
+      213: 533855840028071091
+    second: bunkers3_30
+  - first:
+      213: -4037403680297824917
+    second: bunkers3_31
+  - first:
+      213: 5977418077356753717
+    second: bunkers3_32
+  - first:
+      213: -5160592696987129001
+    second: bunkers3_33
+  - first:
+      213: 1285837084093585348
+    second: bunkers3_34
+  - first:
+      213: 2992502258362701922
+    second: bunkers3_35
+  - first:
+      213: 1022708301357134016
+    second: bunkers3_36
+  - first:
+      213: 4576089473277651136
+    second: bunkers3_37
+  - first:
+      213: -4190964497999624963
+    second: bunkers3_38
+  - first:
+      213: -6975878414651413268
+    second: bunkers3_39
+  - first:
+      213: -3613020374041136276
+    second: bunkers3_40
+  - first:
+      213: -286722608912326356
+    second: bunkers3_41
+  - first:
+      213: -4042150507169886948
+    second: bunkers3_42
+  - first:
+      213: -5180354482243895367
+    second: bunkers3_43
+  - first:
+      213: -7530982643132480593
+    second: bunkers3_44
+  - first:
+      213: -6302099657530764411
+    second: bunkers3_45
+  - first:
+      213: -5638289607997379206
+    second: bunkers3_46
+  - first:
+      213: 6803814211408326385
+    second: bunkers3_47
+  - first:
+      213: -3975847190014472688
+    second: bunkers3_48
+  - first:
+      213: -352448402086671679
+    second: bunkers3_49
+  - first:
+      213: 1094086009629329694
+    second: bunkers3_50
+  - first:
+      213: -6034935688152504049
+    second: bunkers3_51
+  - first:
+      213: -4611963188309137014
+    second: bunkers3_52
+  - first:
+      213: 553789716449995005
+    second: bunkers3_53
+  - first:
+      213: -5538577201775624327
+    second: bunkers3_54
+  - first:
+      213: 5550071366516542429
+    second: bunkers3_55
+  - first:
+      213: 7592323591841677879
+    second: bunkers3_56
+  - first:
+      213: 8523120670224176708
+    second: bunkers3_57
+  - first:
+      213: -4139295495329311697
+    second: bunkers3_58
+  - first:
+      213: -3659600941999062475
+    second: bunkers3_59
+  - first:
+      213: 4218534110825469347
+    second: bunkers3_60
+  - first:
+      213: -2438950261085651973
+    second: bunkers3_61
+  - first:
+      213: -6025173270468480758
+    second: bunkers3_62
+  - first:
+      213: 9024328064901714442
+    second: bunkers3_63
+  - first:
+      213: 2733409813050621314
+    second: bunkers3_64
+  - first:
+      213: 6411418743709965794
+    second: bunkers3_65
+  - first:
+      213: 2937183351951373875
+    second: bunkers3_66
+  - first:
+      213: 2732066643776548723
+    second: bunkers3_67
+  - first:
+      213: 5047728716052476372
+    second: bunkers3_68
+  - first:
+      213: -6364845906625035891
+    second: bunkers3_69
+  - first:
+      213: -8042660491762248759
+    second: bunkers3_70
+  - first:
+      213: -6551734519960815657
+    second: bunkers3_71
+  - first:
+      213: -2707064013066142920
+    second: bunkers3_72
+  - first:
+      213: 3549589365419231052
+    second: bunkers3_73
+  - first:
+      213: 2894884266178926586
+    second: bunkers3_74
+  - first:
+      213: -3378470697772135288
+    second: bunkers3_75
+  - first:
+      213: 1379374483031908385
+    second: bunkers3_76
+  - first:
+      213: 6170137716885704806
+    second: bunkers3_77
+  - first:
+      213: 6706867280022927391
+    second: bunkers3_78
+  - first:
+      213: 5657411647524637775
+    second: bunkers3_79
+  - first:
+      213: -8090524721526805732
+    second: bunkers3_80
+  - first:
+      213: -4507544276642426559
+    second: bunkers3_81
+  - first:
+      213: 2240075994967041175
+    second: bunkers3_82
+  - first:
+      213: 3053987699839893780
+    second: bunkers3_83
+  - first:
+      213: -6820655233494155623
+    second: bunkers3_84
+  - first:
+      213: 7583636382925737602
+    second: bunkers3_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bunkers3_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1067
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f120dd845f472de40800000000000000
+      internalID: 5679730676905869855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1066
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bc341a4c54169c0800000000000000
+      internalID: -3935787888523621553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1066
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea418e940b51b4df0800000000000000
+      internalID: -195038311962110802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1067
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 577d364b3d7adfd80800000000000000
+      internalID: -8215225617547536523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_4
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1067
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcae09cf94fe7b160800000000000000
+      internalID: 7041359643466066635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_5
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1067
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b21652d1d84e64a0800000000000000
+      internalID: -6598256338036976974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_6
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1079
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed7b45b2d67a0ce0800000000000000
+      internalID: -1438206483634618909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_7
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1079
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7715d2fd1f59070800000000000000
+      internalID: 8112656244618131405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_8
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1064
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7cdcc823c1d91c0800000000000000
+      internalID: -4495405849609648159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_9
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1064
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b8cb5f151d19480800000000000000
+      internalID: -8894097639134688443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_10
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1020
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922f60bd161c8c690800000000000000
+      internalID: -7581597346647576023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_11
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1020
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9faf89c075ff8b0800000000000000
+      internalID: -5116274940051785251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_12
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 963
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7dc0b373b6422230800000000000000
+      internalID: 3612527587658616189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_13
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 979
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6568e891fa80b90800000000000000
+      internalID: -7275372673716824401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_14
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 979
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ef69418ac0879f0800000000000000
+      internalID: -470612245020737909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_15
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 958
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103491179b477baa0800000000000000
+      internalID: -6145314826708499711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_16
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 959
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b9c4546232253d0800000000000000
+      internalID: -3219472136338105578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_17
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 947
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fc88fbf47f22fe0800000000000000
+      internalID: -1215137027548721275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_18
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 970
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40e01337c1c68670800000000000000
+      internalID: 8540726804654121038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_19
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 966
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3090f9d386f9ff60800000000000000
+      internalID: 8068751253568524351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_20
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 968
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c03a6acb88c44cc0800000000000000
+      internalID: -3727634088833961785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_21
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 894
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cf8229ffba77bd0800000000000000
+      internalID: -2632446343017595864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_22
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 892
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f86ee00b8b97cb30800000000000000
+      internalID: 4307582589921552631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 897
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd0d500cfe80bef0800000000000000
+      internalID: -94418379185779241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_24
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 923
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d173ce2145f89520800000000000000
+      internalID: 2709184836169593299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_25
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 927
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542bc42c452bba6e0800000000000000
+      internalID: -1825169146861800891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_26
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 926
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd5bc8581635bb70800000000000000
+      internalID: 8914090515646602682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_27
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 857
+        width: 40
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad64e1997b4954c0800000000000000
+      internalID: -4298321383837635157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_28
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 900
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298eb9e89d436ae40800000000000000
+      internalID: 5667275290097477778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_29
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 900
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9933cd13ecf0ac0800000000000000
+      internalID: -3886661239854360157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 902
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4142ade03a86700800000000000000
+      internalID: 533855840028071091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_31
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 884
+        width: 70
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d4efc6eb248f7c0800000000000000
+      internalID: -4037403680297824917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_32
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 866
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53309d6521e04f250800000000000000
+      internalID: 5977418077356753717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_33
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 820
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b6b99b844e168b0800000000000000
+      internalID: -5160592696987129001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_34
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 858
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c71c6ce30638d110800000000000000
+      internalID: 1285837084093585348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_35
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 858
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2685343f2f0878920800000000000000
+      internalID: 2992502258362701922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_36
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 858
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c03c3318c3613e00800000000000000
+      internalID: 1022708301357134016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_37
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 855
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c86e1b7129818f30800000000000000
+      internalID: 4576089473277651136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_38
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 863
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df485766ef3b6d5c0800000000000000
+      internalID: -4190964497999624963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_39
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 857
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec236aaa83b03f90800000000000000
+      internalID: -6975878414651413268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_40
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 858
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c637707cc19fbddc0800000000000000
+      internalID: -3613020374041136276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_41
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 818
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2125ba6e4b550cf0800000000000000
+      internalID: -286722608912326356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_42
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 806
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d497ba78567e7c0800000000000000
+      internalID: -4042150507169886948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_43
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 806
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfff3b8b0fab18b0800000000000000
+      internalID: -5180354482243895367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_44
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 806
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3c47adf239c7790800000000000000
+      internalID: -7530982643132480593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_45
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 806
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58394cd50c17a88a0800000000000000
+      internalID: -6302099657530764411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_46
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 806
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d2a867975c0c1b0800000000000000
+      internalID: -5638289607997379206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_47
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 808
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe6fb42af00c6e50800000000000000
+      internalID: 6803814211408326385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_48
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 731
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ec3fdab04f2d8c0800000000000000
+      internalID: -3975847190014472688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_49
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 735
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca48ffab0adb1bf0800000000000000
+      internalID: -352448402086671679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_50
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 738
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e194ea5dd69fe2f00800000000000000
+      internalID: 1094086009629329694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_51
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 738
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09a75157f99f3ca0800000000000000
+      internalID: -6034935688152504049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_52
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 738
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89e7ab5ae30fffb0800000000000000
+      internalID: -4611963188309137014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_53
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 746
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8244120d47fa700800000000000000
+      internalID: 553789716449995005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_54
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 642
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f361f21650323b0800000000000000
+      internalID: -5538577201775624327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_55
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 642
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb09479080d50d40800000000000000
+      internalID: 5550071366516542429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_56
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 666
+        width: 67
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7328a87b41a5d5960800000000000000
+      internalID: 7592323591841677879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_57
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 621
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44650869715384670800000000000000
+      internalID: 8523120670224176708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_58
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 639
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24958c8da44e86c0800000000000000
+      internalID: -4139295495329311697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_59
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 639
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5320678255c763dc0800000000000000
+      internalID: -3659600941999062475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_60
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 558
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5de9c4c6e3b8a30800000000000000
+      internalID: 4218534110825469347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_61
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 560
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbb42fd8ab172ed0800000000000000
+      internalID: -2438950261085651973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_62
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 551
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a013c8f45d8426ca0800000000000000
+      internalID: -6025173270468480758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_63
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 549
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a021e05ef8adc3d70800000000000000
+      internalID: 9024328064901714442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_64
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 428
+        width: 70
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28df2742eb50fe520800000000000000
+      internalID: 2733409813050621314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_65
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 428
+        width: 70
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed1d15d06fe9f850800000000000000
+      internalID: 6411418743709965794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_66
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 413
+        width: 101
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336b04d52b8f2c820800000000000000
+      internalID: 2937183351951373875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_67
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 530
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37faefc23204ae520800000000000000
+      internalID: 2732066643776548723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_68
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 515
+        width: 94
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1b8d2f5822d0640800000000000000
+      internalID: 5047728716052476372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_69
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 506
+        width: 134
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81048dce568ba7a0800000000000000
+      internalID: -6364845906625035891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_70
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 494
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3517305eab26090800000000000000
+      internalID: -8042660491762248759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_71
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 495
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7321baa209315a0800000000000000
+      internalID: -6551734519960815657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_72
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 505
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bf2fc6f939e6ad0800000000000000
+      internalID: -2707064013066142920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_73
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 462
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c474158a8bca24130800000000000000
+      internalID: 3549589365419231052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_74
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 464
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7567ff6e1bc2820800000000000000
+      internalID: 2894884266178926586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_75
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 437
+        width: 14
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cc93fdcc24d11d0800000000000000
+      internalID: -3378470697772135288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_76
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 435
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120ea59b8c5842310800000000000000
+      internalID: 1379374483031908385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_77
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 449
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660563e009bb0a550800000000000000
+      internalID: 6170137716885704806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_78
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 303
+        width: 94
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18f475b144931d50800000000000000
+      internalID: 6706867280022927391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_79
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 404
+        width: 164
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c0dde4be9238e40800000000000000
+      internalID: 5657411647524637775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_80
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 265
+        width: 198
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1be0e691aea8bf80800000000000000
+      internalID: -8090524721526805732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_81
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 249
+        width: 228
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1411265cc5cf171c0800000000000000
+      internalID: -4507544276642426559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_82
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 318
+        width: 64
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794e3edbf39561f10800000000000000
+      internalID: 2240075994967041175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_83
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 320
+        width: 135
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4118e5dd1a1f16a20800000000000000
+      internalID: 3053987699839893780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_84
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 169
+        width: 198
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99efb28d33a2851a0800000000000000
+      internalID: -6820655233494155623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bunkers3_85
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 166
+        width: 64
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e44064c1d7e3960800000000000000
+      internalID: 7583636382925737602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 700bf0f296fba9a4ba088f81e4653b30
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bunkers3_0: 5679730676905869855
+      bunkers3_1: -3935787888523621553
+      bunkers3_10: -7581597346647576023
+      bunkers3_11: -5116274940051785251
+      bunkers3_12: 3612527587658616189
+      bunkers3_13: -7275372673716824401
+      bunkers3_14: -470612245020737909
+      bunkers3_15: -6145314826708499711
+      bunkers3_16: -3219472136338105578
+      bunkers3_17: -1215137027548721275
+      bunkers3_18: 8540726804654121038
+      bunkers3_19: 8068751253568524351
+      bunkers3_2: -195038311962110802
+      bunkers3_20: -3727634088833961785
+      bunkers3_21: -2632446343017595864
+      bunkers3_22: 4307582589921552631
+      bunkers3_23: -94418379185779241
+      bunkers3_24: 2709184836169593299
+      bunkers3_25: -1825169146861800891
+      bunkers3_26: 8914090515646602682
+      bunkers3_27: -4298321383837635157
+      bunkers3_28: 5667275290097477778
+      bunkers3_29: -3886661239854360157
+      bunkers3_3: -8215225617547536523
+      bunkers3_30: 533855840028071091
+      bunkers3_31: -4037403680297824917
+      bunkers3_32: 5977418077356753717
+      bunkers3_33: -5160592696987129001
+      bunkers3_34: 1285837084093585348
+      bunkers3_35: 2992502258362701922
+      bunkers3_36: 1022708301357134016
+      bunkers3_37: 4576089473277651136
+      bunkers3_38: -4190964497999624963
+      bunkers3_39: -6975878414651413268
+      bunkers3_4: 7041359643466066635
+      bunkers3_40: -3613020374041136276
+      bunkers3_41: -286722608912326356
+      bunkers3_42: -4042150507169886948
+      bunkers3_43: -5180354482243895367
+      bunkers3_44: -7530982643132480593
+      bunkers3_45: -6302099657530764411
+      bunkers3_46: -5638289607997379206
+      bunkers3_47: 6803814211408326385
+      bunkers3_48: -3975847190014472688
+      bunkers3_49: -352448402086671679
+      bunkers3_5: -6598256338036976974
+      bunkers3_50: 1094086009629329694
+      bunkers3_51: -6034935688152504049
+      bunkers3_52: -4611963188309137014
+      bunkers3_53: 553789716449995005
+      bunkers3_54: -5538577201775624327
+      bunkers3_55: 5550071366516542429
+      bunkers3_56: 7592323591841677879
+      bunkers3_57: 8523120670224176708
+      bunkers3_58: -4139295495329311697
+      bunkers3_59: -3659600941999062475
+      bunkers3_6: -1438206483634618909
+      bunkers3_60: 4218534110825469347
+      bunkers3_61: -2438950261085651973
+      bunkers3_62: -6025173270468480758
+      bunkers3_63: 9024328064901714442
+      bunkers3_64: 2733409813050621314
+      bunkers3_65: 6411418743709965794
+      bunkers3_66: 2937183351951373875
+      bunkers3_67: 2732066643776548723
+      bunkers3_68: 5047728716052476372
+      bunkers3_69: -6364845906625035891
+      bunkers3_7: 8112656244618131405
+      bunkers3_70: -8042660491762248759
+      bunkers3_71: -6551734519960815657
+      bunkers3_72: -2707064013066142920
+      bunkers3_73: 3549589365419231052
+      bunkers3_74: 2894884266178926586
+      bunkers3_75: -3378470697772135288
+      bunkers3_76: 1379374483031908385
+      bunkers3_77: 6170137716885704806
+      bunkers3_78: 6706867280022927391
+      bunkers3_79: 5657411647524637775
+      bunkers3_8: -4495405849609648159
+      bunkers3_80: -8090524721526805732
+      bunkers3_81: -4507544276642426559
+      bunkers3_82: 2240075994967041175
+      bunkers3_83: 3053987699839893780
+      bunkers3_84: -6820655233494155623
+      bunkers3_85: 7583636382925737602
+      bunkers3_9: -8894097639134688443
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

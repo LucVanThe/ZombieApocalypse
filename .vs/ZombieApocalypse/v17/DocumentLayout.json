@@ -1,0 +1,540 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\playerstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\playerstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\scripts\\cursormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cursormanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|c:\\users\\01672\\downloads\\zombieapocalypse\\assets\\enemydropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\enemydropitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\helicopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\helicopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|c:\\users\\01672\\downloads\\zombieapocalypse\\assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\shotenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\shotenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\gamepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\gamepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\mine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\mine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\scripts\\explosionzombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\explosionzombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\equipmenrsobly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\equipmenrsobly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\equipmentso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\equipmentso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\playercollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\followplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\followplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\enemybasic2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\enemybasic2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\autoshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\autoshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\bossenemy1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\bossenemy1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\scripts\\equippedslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\equippedslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\scripts\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\sprites\\read me .txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\sprites\\read me .txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\scripts\\equipmentslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\equipmentslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\scripts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\assets\\scripts\\bulletar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84471074-F4E9-CF72-3EE1-FB259A0987A7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Explosion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\ExplosionZombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ExplosionZombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Zombie1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Zombie1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "bulletAR.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\bulletAR.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\bulletAR.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\bulletAR.cs",
+              "RelativeToolTip": "Assets\\Scripts\\bulletAR.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T07:36:58.535Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Gun.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\Gun.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gun.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\Gun.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gun.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA5wBwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T10:17:27.826Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyDropItem.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\EnemyDropItem.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemyDropItem.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\EnemyDropItem.cs",
+              "RelativeToolTip": "Assets\\EnemyDropItem.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwB8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T08:57:20.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InventoryManager.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\InventoryManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InventoryManager.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAAwLcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T09:25:43.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T07:14:08.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "helicopter.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\helicopter.cs",
+              "RelativeDocumentMoniker": "Assets\\helicopter.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\helicopter.cs",
+              "RelativeToolTip": "Assets\\helicopter.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:05:41.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cursormanager.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\Cursormanager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cursormanager.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\Cursormanager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cursormanager.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwBwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T07:50:18.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerStat.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\PlayerStat.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerStat.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\PlayerStat.cs",
+              "RelativeToolTip": "Assets\\PlayerStat.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T07:37:15.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\AudioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T06:05:07.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Mine.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Mine.cs",
+              "RelativeDocumentMoniker": "Assets\\Mine.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Mine.cs",
+              "RelativeToolTip": "Assets\\Mine.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T09:01:08.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Gamepoint.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Gamepoint.cs",
+              "RelativeDocumentMoniker": "Assets\\Gamepoint.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Gamepoint.cs",
+              "RelativeToolTip": "Assets\\Gamepoint.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T09:00:20.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Shotenemy.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Shotenemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Shotenemy.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Shotenemy.cs",
+              "RelativeToolTip": "Assets\\Shotenemy.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:46:14.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAQwFgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T08:07:26.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyBullet.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\EnemyBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemyBullet.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\EnemyBullet.cs",
+              "RelativeToolTip": "Assets\\EnemyBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T09:02:14.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ExplosionZombie.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\ExplosionZombie.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ExplosionZombie.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\ExplosionZombie.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ExplosionZombie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:39:21.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EquipmentSO.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\EquipmentSO.cs",
+              "RelativeDocumentMoniker": "Assets\\EquipmentSO.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\EquipmentSO.cs",
+              "RelativeToolTip": "Assets\\EquipmentSO.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T07:46:30.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PlayerCollision.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\PlayerCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerCollision.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\PlayerCollision.cs",
+              "RelativeToolTip": "Assets\\PlayerCollision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:18:46.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EquipmenrSoBly.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\EquipmenrSoBly.cs",
+              "RelativeDocumentMoniker": "Assets\\EquipmenrSoBly.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\EquipmenrSoBly.cs",
+              "RelativeToolTip": "Assets\\EquipmenrSoBly.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T07:53:00.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FollowPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\FollowPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\FollowPlayer.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\FollowPlayer.cs",
+              "RelativeToolTip": "Assets\\FollowPlayer.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwEkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:41:40.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EnemyBasic2.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\EnemyBasic2.cs",
+              "RelativeDocumentMoniker": "Assets\\EnemyBasic2.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\EnemyBasic2.cs",
+              "RelativeToolTip": "Assets\\EnemyBasic2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T07:13:59.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AutoShot.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\AutoShot.cs",
+              "RelativeDocumentMoniker": "Assets\\AutoShot.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\AutoShot.cs",
+              "RelativeToolTip": "Assets\\AutoShot.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAcwB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:15:59.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BossEnemy1.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\BossEnemy1.cs",
+              "RelativeDocumentMoniker": "Assets\\BossEnemy1.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\BossEnemy1.cs",
+              "RelativeToolTip": "Assets\\BossEnemy1.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T08:29:12.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EquippedSlot.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\EquippedSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EquippedSlot.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\EquippedSlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EquippedSlot.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAA8wC0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T08:37:57.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ItemSlot.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\ItemSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSlot.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\ItemSlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemSlot.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAmwBkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T08:35:33.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Item.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\Item.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Item.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T08:30:06.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EquipmentSlot.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\EquipmentSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EquipmentSlot.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\EquipmentSlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EquipmentSlot.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKcAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T08:36:02.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "read me .txt",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\sprites\\read me .txt",
+              "RelativeDocumentMoniker": "Assets\\sprites\\read me .txt",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\sprites\\read me .txt",
+              "RelativeToolTip": "Assets\\sprites\\read me .txt",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-17T07:43:43.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ItemSO.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\ItemSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemSO.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Scripts\\ItemSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T08:35:31.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Enemy.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T04:53:04.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Zombie1.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Zombie1.cs",
+              "RelativeDocumentMoniker": "Assets\\Zombie1.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Zombie1.cs",
+              "RelativeToolTip": "Assets\\Zombie1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T05:13:31.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ExplosionZombie.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\ExplosionZombie.cs",
+              "RelativeDocumentMoniker": "Assets\\ExplosionZombie.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\ExplosionZombie.cs",
+              "RelativeToolTip": "Assets\\ExplosionZombie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T06:40:04.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Explosion.cs",
+              "DocumentMoniker": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Explosion.cs",
+              "RelativeDocumentMoniker": "Assets\\Explosion.cs",
+              "ToolTip": "C:\\Users\\01672\\Downloads\\ZombieApocalypse\\Assets\\Explosion.cs",
+              "RelativeToolTip": "Assets\\Explosion.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T06:51:43.493Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
