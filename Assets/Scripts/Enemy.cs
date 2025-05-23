@@ -14,9 +14,9 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected float Enterdamage = 10f;
     [SerializeField] protected float Staydamage = 1f;
     private Vector2 lastPosition;
-    private Animator animator;
+    protected Animator animator;
     public bool isMove;
-    [SerializeField] private float followRange = 5f;
+    [SerializeField] protected float followRange = 5f;
     [SerializeField] protected float stopRange = 0.1f;
 
     public virtual void Start()
@@ -34,7 +34,7 @@ public abstract class Enemy : MonoBehaviour
 
     }
     
-    protected void MoveToPlayer()
+    protected virtual void MoveToPlayer()
     {
         if (player != null)
         {
@@ -60,6 +60,7 @@ public abstract class Enemy : MonoBehaviour
 
         
     }
+
     private void UpdateAnimation()
     {
         Vector2 currentPosition = transform.position;
@@ -96,7 +97,7 @@ public abstract class Enemy : MonoBehaviour
             StartCoroutine(DelayDeath());
         }
     }
-    private IEnumerator DelayDeath()
+    public IEnumerator DelayDeath()
     {
         float delay = animator.GetCurrentAnimatorStateInfo(0).length;
         yield return new WaitForSeconds(delay);

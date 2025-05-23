@@ -15,4 +15,4 @@ MonoBehaviour:
   itemName: TayCam
   health: 15
   attack: 5
-  speed: 0.3
+  speed: 0.2

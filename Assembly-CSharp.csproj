@@ -75,12 +75,14 @@
     <Compile Include="Assets\PlayerStat.cs" />
     <Compile Include="Assets\Gamepoint.cs" />
     <Compile Include="Assets\Mine.cs" />
+    <Compile Include="Assets\BossDemon.cs" />
     <Compile Include="Assets\Shotenemy.cs" />
     <Compile Include="Assets\PlayerCollision.cs" />
     <Compile Include="Assets\EquipmenrSoBly.cs" />
     <Compile Include="Assets\Scripts\InventoryManager.cs" />
     <Compile Include="Assets\AutoShot.cs" />
     <Compile Include="Assets\Scripts\EquippedSlot.cs" />
+    <Compile Include="Assets\MiniDemonScript.cs" />
     <Compile Include="Assets\EnemyBullet.cs" />
     <Compile Include="Assets\Scripts\AnimatorOverrider.cs" />
     <Compile Include="Assets\Scripts\ItemSlot.cs" />
