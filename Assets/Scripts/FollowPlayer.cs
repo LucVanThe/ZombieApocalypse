@@ -3,7 +3,8 @@ using UnityEngine.InputSystem;
 
 public class FollowPlayer : MonoBehaviour
 {
-    public Transform player;          
+    public Transform player;
+    public float followDistancemax = 20f;
     public float followSpeed = 3f;   
     public float followDistance = 2f;
     public float detectRange = 8f;
@@ -27,7 +28,7 @@ public class FollowPlayer : MonoBehaviour
 
        
         float distance = Vector2.Distance(transform.position, player.position);
-        if (distance > followDistance)
+        if (distance > followDistance && distance<= followDistancemax)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.position, followSpeed * Time.deltaTime);
         }

@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: AR15
   health: 0
-  attack: 20
+  attack: 40
   speed: -1
+  shotdelay: 0.75

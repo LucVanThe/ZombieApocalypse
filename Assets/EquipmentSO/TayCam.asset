@@ -16,3 +16,4 @@ MonoBehaviour:
   health: 15
   attack: 5
   speed: 0.2
+  shotdelay: -0.1

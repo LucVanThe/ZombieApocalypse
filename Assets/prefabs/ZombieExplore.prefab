@@ -207,7 +207,7 @@ MonoBehaviour:
   Enterdamage: 10
   Staydamage: 1
   isMove: 0
-  followRange: 5
+  followRange: 8
   stopRange: 0.1
   ExploPrefabs: {fileID: 9001891217453448808, guid: 2646e40b28d6657428995adca16f33c2, type: 3}
 --- !u!114 &1769690010132223552
@@ -228,6 +228,8 @@ MonoBehaviour:
   - itemPrefab: {fileID: 4118896102476214609, guid: f06e15e113939844ea5b05dcc2c1d7ca, type: 3}
     dropChance: 0.43
   - itemPrefab: {fileID: 3337015537041736589, guid: d627010ae29fedc46a01a5eae8403fae, type: 3}
+    dropChance: 0.43
+  - itemPrefab: {fileID: 2824575875514327351, guid: a88ffc62732e44b42b76af77ce58d420, type: 3}
     dropChance: 0.43
 --- !u!1001 &6448549338747541640
 PrefabInstance:

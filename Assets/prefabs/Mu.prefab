@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -4154672732890385513, guid: 72ecb2f1518668141a11fd3ca5e46d94, type: 3}
+  m_Sprite: {fileID: -5713829998958768423, guid: 72ecb2f1518668141a11fd3ca5e46d94, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -178,6 +178,6 @@ MonoBehaviour:
   itemTypeColor: 
   itemName: Mu1
   quantity: 1
-  itemSprite: {fileID: -4154672732890385513, guid: 72ecb2f1518668141a11fd3ca5e46d94, type: 3}
+  itemSprite: {fileID: -5713829998958768423, guid: 72ecb2f1518668141a11fd3ca5e46d94, type: 3}
   typeItem: 5
   gunType: 2

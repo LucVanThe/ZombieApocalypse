@@ -8,21 +8,36 @@ public class Gun : MonoBehaviour
     private float rotateoffset = 180f;
     [SerializeField] private Transform firepoint;
     [SerializeField] private GameObject bulletPrefabs;
-    [SerializeField] private float shotdelay = 0.15f;
+    [SerializeField] public float shotdelay = 0.15f;
+    [SerializeField] public float currentshotdelay = 0f;
     private float nextShot;
     [SerializeField] private int maxAmmo = 30;
     [SerializeField] private AudioManager AudioManager;
+    private PlayerStat playerStat;
     public int currentAmmo;
     private InventoryManager inventoryManager;
     [SerializeField] private TextMeshProUGUI armoText;
+    private void Awake()
+    {
+        playerStat = GameObject.Find("StatManager").GetComponent<PlayerStat>();
+    }
     void Start()
     {
+        
+        UpdateShotdelay();
         currentAmmo = maxAmmo;
         UpdateArmoText();
         inventoryManager = FindFirstObjectByType<InventoryManager>();
+      
+    }
+    public void UpdateShotdelay()
+    {
+        currentshotdelay = Mathf.Max(0.1f, shotdelay + playerStat.shotdelay);
+        Debug.Log("delay co ban = " + shotdelay);
+        Debug.Log("delay them = " + playerStat.shotdelay);
+        Debug.Log(" tong delay = " + currentshotdelay);
     }
 
-        
     void Update()
     {
         RotateGun();
@@ -32,7 +47,9 @@ public class Gun : MonoBehaviour
         }
 
         reload();
+        
     }
+    
     void RotateGun()
     {
         if (Input.mousePosition.x < 0 || Input.mousePosition.x > Screen.width || Input.mousePosition.y < 0 || Input.mousePosition.y > Screen.height)
@@ -57,7 +74,7 @@ public class Gun : MonoBehaviour
 
         if (player != null && !player.isMoving && Input.GetMouseButton(0) && currentAmmo > 0 && Time.time > nextShot)
         {
-            nextShot = Time.time + shotdelay;
+            nextShot = Time.time + currentshotdelay;
             Instantiate(bulletPrefabs, firepoint.position, firepoint.rotation);
             currentAmmo--;
             UpdateArmoText();

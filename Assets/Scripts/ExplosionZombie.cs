@@ -17,7 +17,8 @@ public class ExplosionZombie : Enemy
     {
         if (collision.CompareTag("Player"))
         {
-            CreateExplosion();
+           
+            Die();
         }
     }
 }

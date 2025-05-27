@@ -24,8 +24,7 @@ public class EquipmentSlot : MonoBehaviour, IPointerClickHandler
     public GameObject selectedShader;
     public bool thisitemSelect;
     private InventoryManager inventoryManager;
-  
-
+   
     //O trang bi
     [SerializeField] private EquippedSlot Armo, gunSlot, Shoe,Mu;
     [SerializeField] private EquippedSlot Phukien, Phukien2 , Phukien3; 
@@ -34,6 +33,7 @@ public class EquipmentSlot : MonoBehaviour, IPointerClickHandler
     //  [SerializeField] private int maxNumberitem;
     public void Start()
     {
+      
         inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();
         animator = GameObject.Find("Player").GetComponent<Animator>();
         //GunObject = GameObject.Find("GunObject").GetComponent<SpriteRenderer>();
@@ -103,7 +103,7 @@ public class EquipmentSlot : MonoBehaviour, IPointerClickHandler
         }
         if (itemType == TypeItem.mu)
         {
-            Mu.EquipGear(itemSprite, itemName, itemtypecolor);
+            Mu.EquipGear(itemSprite, itemName, itemtypecolor);        
             EmptyLost();
 
         }
@@ -112,6 +112,7 @@ public class EquipmentSlot : MonoBehaviour, IPointerClickHandler
         {
 
             gunSlot.EquipGear(itemSprite, itemName, itemtypecolor);
+
             EmptyLost();
         }
       

@@ -13,7 +13,6 @@ public class EquippedSlot : MonoBehaviour,IPointerClickHandler
 
     //Du lieu o
     [SerializeField] private TypeItem itemtype = new TypeItem();
-    [SerializeField] private GunType gunType = new GunType();
     private Sprite itemsprite;
     public string itemName;
     private Item item;

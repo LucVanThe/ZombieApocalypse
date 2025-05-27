@@ -3,8 +3,9 @@ using UnityEngine;
 public class Gamepoint : MonoBehaviour
 {
     [SerializeField] public Transform gamepoint;
-    [SerializeField] GameObject enemy;
-    [SerializeField] GameObject allain;
+    [SerializeField] public GameObject enemy;
+    [SerializeField] public GameObject allain;
+    public Transform savePosition;
    
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -20,7 +21,7 @@ public class Gamepoint : MonoBehaviour
             {
                 allain.SetActive(true);
             }
-          
+            savePosition = gamepoint;
         }
     }
 }

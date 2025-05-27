@@ -207,7 +207,7 @@ MonoBehaviour:
   Enterdamage: 10
   Staydamage: 1
   isMove: 0
-  followRange: 5
+  followRange: 7
   stopRange: 0.1
 --- !u!114 &-7249209581839861779
 MonoBehaviour:
@@ -225,6 +225,10 @@ MonoBehaviour:
   - itemPrefab: {fileID: 2883429685796940702, guid: aebec6b5b4ce4d646aae317115c41e54, type: 3}
     dropChance: 0.2
   - itemPrefab: {fileID: 6821617729691907770, guid: 77515aefc1b77914ab3b0c2cfb83070e, type: 3}
+    dropChance: 0.4
+  - itemPrefab: {fileID: 5852287208992517072, guid: ea3ce4074ff923744b79b124a58dab8d, type: 3}
+    dropChance: 0.4
+  - itemPrefab: {fileID: 4118896102476214609, guid: f06e15e113939844ea5b05dcc2c1d7ca, type: 3}
     dropChance: 0.4
 --- !u!1001 &5423741266190351729
 PrefabInstance:

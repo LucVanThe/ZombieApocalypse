@@ -14,13 +14,13 @@ public class Player : MonoBehaviour
     // private SpriteRenderer Armosprite;
     [SerializeField] private float baseHp = 0;
     public float maxHP;
-    private float currentHP;
+    public float currentHP;
     [SerializeField] private Image HPbar;
 
     [SerializeField] private SpriteRenderer armosprite;
     private PlayerStat playerStat;
     private AudioManager AudioManager;
-
+    private GameManager GameManager;
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -29,16 +29,22 @@ public class Player : MonoBehaviour
         playerStat = GameObject.Find("StatManager").GetComponent<PlayerStat>();
         // Armosprite = GameObject.Find("Armo").GetComponent<SpriteRenderer>();
         AudioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
-
+        GameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
    
     
     void Start()
-    {   
+    {
+        SaveData data = SaveManager.LoadGame();
+        if (data != null)
+        {
+            transform.position = new Vector3(data.playerPosition[0], data.playerPosition[1], data.playerPosition[2]);
+        }
         UpdateHP();
        // Debug.Log("HP toi da = " + maxHP);
         currentHP = maxHP;
         UPdateHPbar();
+       
         
         
     }
@@ -52,8 +58,11 @@ public class Player : MonoBehaviour
     void Update()
     {
         ShotAnimator();
-        
-            Moveplayer();
+        Moveplayer();
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            GameManager.gamePauseMenu();
+        }
             
         
     }
@@ -91,39 +100,6 @@ public class Player : MonoBehaviour
         }
         
     }
-
-    //private void Moveplayer()
-    //{
-
-    //    Vector2 playerInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-    //    rb.linearVelocity = playerInput.normalized * movespeed;
-    //    if (Input.GetMouseButtonDown(0)) 
-    //    {
-    //        FlipTowardsMouse();
-    //    }
-    //    if (playerInput.x < 0)
-    //    {
-    //        spriteRenderer.flipX = true;
-    //        // Armosprite.flipX = true;
-
-    //    }
-    //    else if (playerInput.x > 0)
-    //    {
-    //        spriteRenderer.flipX = false;
-    //        //  Armosprite.flipX = false;
-    //    }
-//        if (playerInput != Vector2.zero)
-//        {
-//            animator.SetBool("isRun", true);
-//            animator.SetBool("isShot", false);
-//        }
-//        else
-//{
-//    animator.SetBool("isRun", false);
-
-//}
-
-//}
 private void FlipTowardsMouse()
     {
         Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -131,12 +107,12 @@ private void FlipTowardsMouse()
         if (mouseWorldPosition.x < transform.position.x)
         {
             spriteRenderer.flipX = true;
-            // Armosprite.flipX = true;
+           
         }
         else
         {
             spriteRenderer.flipX = false;
-            // Armosprite.flipX = false;
+          
         }
     }
 
@@ -171,7 +147,7 @@ private void FlipTowardsMouse()
     }
     public  void Die()
     {
-        Destroy(gameObject);
+        GameManager.gameOverMenu();
     }
     protected void UPdateHPbar()
     {

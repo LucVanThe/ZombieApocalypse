@@ -24,7 +24,7 @@ public class Item : MonoBehaviour
         {
            
             int leftOverItem=InventoryManager.Additem(itemName, quantity, itemSprite,typeItem,itemTypeColor);
-            Debug.Log("so luong = " + leftOverItem);
+          //  Debug.Log("so luong = " + leftOverItem);
             if(leftOverItem <= 0)           
                 Destroy(gameObject);           
             else         
