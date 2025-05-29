@@ -10,11 +10,12 @@ public class Shotenemy : Enemy
     [SerializeField] private float skillCD = 2f;
     private float distance;
     Enemy enemy;
-  
+    private AudioManager audioManager;
     private float nextSkillTime = 0f;
     public override void Start()
     {
         enemy = GetComponent<Enemy>();
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
         base.Start();
     }
     protected override void Update()
@@ -53,6 +54,7 @@ public class Shotenemy : Enemy
         {
             //Debug.Log("Bắn đạn: " + i);
             Bandanthuong();
+            audioManager.shotPlay();
             yield return new WaitForSeconds(0.2f); 
         }
     }

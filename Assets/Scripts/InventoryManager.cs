@@ -169,6 +169,18 @@ public class InventoryManager : MonoBehaviour
         {
             animator.SetLayerWeight(10, 1f);
         }
+        else if (equippedSlot[1].itemtypecolor == "Trang" && equippedSlot[3].itemName == "SCAR")
+        {
+            animator.SetLayerWeight(6, 1f);
+        }
+        else if (equippedSlot[1].itemtypecolor == "Tim" && equippedSlot[3].itemName == "SCAR")
+        {
+            animator.SetLayerWeight(5, 1f);
+        }
+        if (equippedSlot[1].itemtypecolor == "Xanh" && equippedSlot[3].itemName == "SCAR")
+        {
+            animator.SetLayerWeight(4, 1f);
+        }
         switch (equippedSlot[1].itemtypecolor)
         {
             case "Xanh":

@@ -5,7 +5,7 @@ public class PlayerStat : MonoBehaviour
 {
     private Gun gun;
     private bulletAR weapon;
-    public float health, attack,speed,shotdelay;
+    public float health, attack,speed,shotdelay,reloadtime;
     [SerializeField]
     private TMP_Text healthText,atackText, speedText, shotdelaytext;
     private Player player;

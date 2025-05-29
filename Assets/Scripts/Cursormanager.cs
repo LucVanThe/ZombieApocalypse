@@ -10,7 +10,7 @@ public class Cursormanager : MonoBehaviour
     private Vector2 hotspot = new Vector2(0, 0);
     private void Awake()
     {
-        inventoryManager = FindObjectOfType<InventoryManager>();
+        inventoryManager = FindFirstObjectByType<InventoryManager>();
     }
     void Start()
     {
@@ -33,8 +33,8 @@ public class Cursormanager : MonoBehaviour
         }
         else
         {
-           
-            if (Input.GetMouseButtonDown(0))
+            Player player = FindFirstObjectByType<Player>();
+            if (Input.GetMouseButtonDown(0) &&!player.isMoving)
             {
                 Cursor.SetCursor(cursorshoot, hotspot, CursorMode.Auto);
             }

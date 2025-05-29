@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movespeed: 1
-  MaxHp: 100
+  MaxHp: 200
   currentHP: 0
   HPbar: {fileID: 6170808272400878200}
   Enterdamage: 10

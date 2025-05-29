@@ -3,7 +3,7 @@ using UnityEngine;
 public class EquipmentSO : ScriptableObject
 {
     public string itemName;
-    public float health, attack, speed,shotdelay;
+    public float health, attack, speed,shotdelay,reloadtime;
     public void EquipItem()
     {
         PlayerStat playerStat = GameObject.Find("StatManager").GetComponent<PlayerStat>();
@@ -12,6 +12,7 @@ public class EquipmentSO : ScriptableObject
         playerStat.speed += speed;
         playerStat.shotdelay += shotdelay;
         playerStat.shotdelay = Mathf.Max(0.1f, playerStat.shotdelay);
+        playerStat.reloadtime += reloadtime;
         playerStat.UpdateEquipStat();
     }
     public void UnEquipItem()
@@ -21,6 +22,7 @@ public class EquipmentSO : ScriptableObject
         playerStat.attack -= attack;
         playerStat.speed -= speed;
         playerStat.shotdelay -= shotdelay;
+         playerStat.reloadtime -= reloadtime;
         playerStat.UpdateEquipStat();
     }
     void Start()

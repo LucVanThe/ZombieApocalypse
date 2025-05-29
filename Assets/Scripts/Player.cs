@@ -27,7 +27,6 @@ public class Player : MonoBehaviour
         spriteRenderer =GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         playerStat = GameObject.Find("StatManager").GetComponent<PlayerStat>();
-        // Armosprite = GameObject.Find("Armo").GetComponent<SpriteRenderer>();
         AudioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
         GameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
@@ -35,11 +34,11 @@ public class Player : MonoBehaviour
     
     void Start()
     {
-        SaveData data = SaveManager.LoadGame();
-        if (data != null)
-        {
-            transform.position = new Vector3(data.playerPosition[0], data.playerPosition[1], data.playerPosition[2]);
-        }
+        //SaveData data = SaveManager.LoadGame();
+        //if (data != null)
+        //{
+        //    transform.position = new Vector3(data.playerPosition[0], data.playerPosition[1], data.playerPosition[2]);
+        //}
         UpdateHP();
        // Debug.Log("HP toi da = " + maxHP);
         currentHP = maxHP;
@@ -68,13 +67,14 @@ public class Player : MonoBehaviour
     }
     private void Footstep()
     {
-    //    AudioManager.FootStep();
+        //AudioManager.FootStep();
     }
     private void Moveplayer()
     {
-
+        
+        
         Vector2 playerInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        isMoving = playerInput != Vector2.zero; // Cập nhật trạng thái
+        isMoving = playerInput != Vector2.zero; 
         
         rb.linearVelocity = playerInput.normalized * movespeed;
        
@@ -92,6 +92,7 @@ public class Player : MonoBehaviour
         {
             animator.SetBool("isRun", true);
             animator.SetBool("isShot", false);
+           
         }
         else
         {
@@ -118,12 +119,14 @@ private void FlipTowardsMouse()
 
     public void ShotAnimator()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !isMoving)
         {
             animator.SetBool("isRun", false);
             animator.SetBool("isShot",true);
-           
-          
+            animator.SetTrigger("Shot");
+
+
+
         }
         if (Input.GetMouseButtonUp(0))
         {
@@ -149,7 +152,7 @@ private void FlipTowardsMouse()
     {
         GameManager.gameOverMenu();
     }
-    protected void UPdateHPbar()
+    public void UPdateHPbar()
     {
         if (HPbar != null)
         {

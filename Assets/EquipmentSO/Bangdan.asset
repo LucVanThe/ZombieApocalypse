@@ -17,3 +17,4 @@ MonoBehaviour:
   attack: 3
   speed: 0
   shotdelay: -0.1
+  reloadtime: -0.5

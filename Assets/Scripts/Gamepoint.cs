@@ -12,6 +12,7 @@ public class Gamepoint : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             Player player =GameObject.Find("Player").GetComponent<Player>();
+            savePosition = gamepoint;
             player.transform.position = gamepoint.position;
             if(enemy != null)
             {

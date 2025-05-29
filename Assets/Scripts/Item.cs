@@ -12,7 +12,7 @@ public class Item : MonoBehaviour
     [SerializeField] public Sprite itemSprite;
     private InventoryManager InventoryManager;
     public TypeItem typeItem;
-    public GunType gunType;
+   
     void Start()
     {
         InventoryManager = GameObject.Find("InventoryCanvas").GetComponent<InventoryManager>();

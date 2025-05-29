@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,10 +112,10 @@ TextureImporter:
       name: Shot_3_0
       rect:
         serializedVersion: 2
-        x: 54
-        y: 168
-        width: 44
-        height: 18
+        x: 55
+        y: 169
+        width: 42
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: Shot_3_1
       rect:
         serializedVersion: 2
-        x: 181
-        y: 168
-        width: 49
-        height: 18
+        x: 182
+        y: 169
+        width: 47
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,10 +156,10 @@ TextureImporter:
       name: Shot_3_2
       rect:
         serializedVersion: 2
-        x: 52
-        y: 40
-        width: 59
-        height: 19
+        x: 53
+        y: 41
+        width: 57
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +178,10 @@ TextureImporter:
       name: Shot_3_3
       rect:
         serializedVersion: 2
-        x: 182
-        y: 38
-        width: 58
-        height: 24
+        x: 183
+        y: 39
+        width: 56
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 612898f4f63ecf24890c66c03db0810f
     internalID: 0
     vertices: []
     indices: 

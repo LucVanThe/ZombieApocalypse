@@ -8,7 +8,7 @@ public class MiniDemonScript : MonoBehaviour
     private bool isDealth =false;
     private void Start()
     {
-        bossRef = FindObjectOfType<BossDemon>();
+        bossRef = FindAnyObjectByType<BossDemon>();
         enemy = GetComponent<Enemy>();
     }
     private void Update()

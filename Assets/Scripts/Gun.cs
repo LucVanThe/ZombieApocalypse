@@ -1,5 +1,6 @@
 ﻿
 
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -17,6 +18,9 @@ public class Gun : MonoBehaviour
     public int currentAmmo;
     private InventoryManager inventoryManager;
     [SerializeField] private TextMeshProUGUI armoText;
+    public bool isReloading=false;
+    public float reloadtime = 2f;
+    private float currreloadtime = 0f;
     private void Awake()
     {
         playerStat = GameObject.Find("StatManager").GetComponent<PlayerStat>();
@@ -33,9 +37,10 @@ public class Gun : MonoBehaviour
     public void UpdateShotdelay()
     {
         currentshotdelay = Mathf.Max(0.1f, shotdelay + playerStat.shotdelay);
-        Debug.Log("delay co ban = " + shotdelay);
-        Debug.Log("delay them = " + playerStat.shotdelay);
-        Debug.Log(" tong delay = " + currentshotdelay);
+        currreloadtime = playerStat.reloadtime;
+        //Debug.Log("delay co ban = " + shotdelay);
+        //Debug.Log("delay them = " + playerStat.shotdelay);
+        //Debug.Log(" tong delay = " + currentshotdelay);
     }
 
     void Update()
@@ -46,8 +51,12 @@ public class Gun : MonoBehaviour
             Shoot();
         }
 
-        reload();
-        
+        // reload();
+        if (Input.GetMouseButtonDown(1) && currentAmmo < maxAmmo && !isReloading)
+        {
+            StartCoroutine(Reload());
+        }
+
     }
     
     void RotateGun()
@@ -70,7 +79,7 @@ public class Gun : MonoBehaviour
     }
     void Shoot()
     {
-        Player player = FindObjectOfType<Player>();
+        Player player = FindFirstObjectByType<Player>();
 
         if (player != null && !player.isMoving && Input.GetMouseButton(0) && currentAmmo > 0 && Time.time > nextShot)
         {
@@ -81,7 +90,28 @@ public class Gun : MonoBehaviour
             AudioManager.shotPlay();
         }
     }
+    IEnumerator Reload()
+    {
+        isReloading = true;
 
+       
+        AudioManager.reLoadPlay();
+
+
+        //yield return new WaitForSeconds(2f);
+        float timer = currreloadtime;
+
+       
+        while (timer > 0)
+        {
+            armoText.text = "Đang nạp đạn " + timer.ToString("F1"); 
+            yield return null;
+            timer -= Time.deltaTime;
+        }
+        currentAmmo = maxAmmo;
+        UpdateArmoText();
+        isReloading = false;
+    }
     //    void Shoot()
     //{
     //    if (Input.GetMouseButtonDown(0) && currentAmmo > 0 && Time.time > nextShot)
@@ -93,18 +123,17 @@ public class Gun : MonoBehaviour
 
     //    }
     //}
+    //void reload()
+    //{
+    //    if(Input.GetMouseButtonDown(1) && currentAmmo < maxAmmo)
+    //    {
+    //        AudioManager.reLoadPlay();
+    //        yield 
+    //        currentAmmo = maxAmmo;
+    //        UpdateArmoText();
 
-
-
-    void reload()
-    {
-        if(Input.GetMouseButtonDown(1) && currentAmmo < maxAmmo)
-        {
-            currentAmmo = maxAmmo;
-            UpdateArmoText();
-            AudioManager.reLoadPlay();
-        }
-    }
+    //    }
+    //}
     private void UpdateArmoText()
     {
         if(armoText!= null)

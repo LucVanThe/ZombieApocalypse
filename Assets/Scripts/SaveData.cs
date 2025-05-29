@@ -3,10 +3,9 @@ using UnityEngine;
 [System.Serializable]
 public class SaveData 
 {   
-        public string sceneName;
+       
         public float[] playerPosition;
-        public List<SavedItemData> itemSlots = new List<SavedItemData>();
-
+        
 }
 [System.Serializable]
 public class SavedItemData

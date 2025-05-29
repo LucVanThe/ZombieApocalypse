@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\EnemyBullet.cs" />
     <Compile Include="Assets\Scripts\EquippedSlot.cs" />
+    <Compile Include="Assets\SaveGamePoint.cs" />
     <Compile Include="Assets\Scripts\BossEnemy1.cs" />
     <Compile Include="Assets\Scripts\helicopter.cs" />
     <Compile Include="Assets\Scripts\AnimatorOverrider.cs" />
@@ -98,6 +99,7 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PlayerStat.cs" />
     <Compile Include="Assets\Scripts\Mine.cs" />
+    <Compile Include="Assets\BossTheme.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -10,18 +10,23 @@ public class GameUI : MonoBehaviour
     [SerializeField] private GameManager GameManager;
     public GameObject player;
     public SaveManager SaveManagers;
-    public Gamepoint Gamepoint;
-
+    public Transform Gamepoint;
     private void Awake()
     {
-       // SaveManagers = GameObject.Find("SaveManager").GetComponent<SaveManager>();
+        SaveManagers = GameObject.Find("SaveManager").GetComponent<SaveManager>();
         GameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+      
     }
     void Start()
     {
-       
-        
-       
+        if (!PlayerPrefs.HasKey("NewGame"))
+        {
+            startGame();
+        }
+        else
+        {      
+            PlayerPrefs.DeleteKey("NewGame");
+        }
     }
 
     // Update is called once per frame
@@ -48,31 +53,33 @@ public class GameUI : MonoBehaviour
     }
     public void Chonlai()
     {
-        player.transform.position = Gamepoint.savePosition.position;
+        SaveManagers.LoadGame();
+        ResumeGame();
     }
-    public void SaveButton()
-    {
-        SaveManagers.SaveGame(player.transform.position);
-    }
-    public void ContinueButton()
-    {
-        if (SaveManager.SaveExists())
-        {
-           // SaveData data = SaveManager.LoadGame();
-           // SceneManager.LoadScene(data.sceneName);
-            SaveManagers.LoadGameAndApply();
+    //public void SaveButton()
+    //{
+    //    //SaveManagers.SaveGame(player.transform.position);
+    //}
+    //public void ContinueButton()
+    //{
+    //    if (SaveManager.SaveExists())
+    //    {
+    //       // SaveData data = SaveManager.LoadGame();
+    //       // SceneManager.LoadScene(data.sceneName);
+    //       // SaveManagers.LoadGameAndApply();
            
-            Time.timeScale = 1;
-        }
-        else
-        {
-            Debug.Log("No save found!");
-        }
-    }
+    //        Time.timeScale = 1;
+    //    }
+    //    else
+    //    {
+    //        Debug.Log("No save found!");
+    //    }
+    //}
     public void NewGameButton()
     {
         SaveManager.DeleteSave();
-        SceneManager.LoadScene(0);
+        PlayerPrefs.SetInt("NewGame", 1);
+        SceneManager.LoadScene(0);     
         ResumeGame();
         Time.timeScale = 1;
     }

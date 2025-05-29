@@ -17,3 +17,4 @@ MonoBehaviour:
   attack: 40
   speed: -1
   shotdelay: 0.75
+  reloadtime: 2

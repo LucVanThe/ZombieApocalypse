@@ -233,7 +233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movespeed: 3
-  MaxHp: 100
+  MaxHp: 200
   currentHP: 0
   HPbar: {fileID: 6164439677580235235}
   Enterdamage: 10
@@ -263,6 +263,8 @@ MonoBehaviour:
   - itemPrefab: {fileID: 2163802777374505780, guid: 8622217479706ce4db9a978cf32d4280, type: 3}
     dropChance: 0.3
   - itemPrefab: {fileID: 3924413248990225273, guid: 1e798f406e005564796d3ff0328a2242, type: 3}
+    dropChance: 0.3
+  - itemPrefab: {fileID: 6123770805160447851, guid: 149de5c64153d4f4fb1cce192626507b, type: 3}
     dropChance: 0.3
   - itemPrefab: {fileID: 8924961885924547372, guid: 13cc98e2e197bd5418de9e0539ff0398, type: 3}
     dropChance: 0.3

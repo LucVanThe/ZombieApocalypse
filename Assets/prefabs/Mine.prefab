@@ -261,6 +261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f697ba8cce347274f8b67b4b3ebdb6ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timecd: 4
+  timecd: 2
   ExploPrefabs: {fileID: 9001891217453448808, guid: 2646e40b28d6657428995adca16f33c2, type: 3}
   WarningCircle: {fileID: 3137414476155669442}

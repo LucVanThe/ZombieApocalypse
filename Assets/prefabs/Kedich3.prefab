@@ -211,18 +211,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movespeed: 2
-  MaxHp: 100
+  MaxHp: 200
   currentHP: 0
   HPbar: {fileID: 4979473042372535233}
   Enterdamage: 10
   Staydamage: 1
   isMove: 0
   followRange: 12
-  stopRange: 7
+  stopRange: 8
   bulletPrefabs: {fileID: 3424150753513950412, guid: fdfd60278511f4146a2f1a419c00d96c, type: 3}
   firepoint: {fileID: 5614620069012658110}
   speedbullet: 8
-  skillCD: 1.5
+  skillCD: 2
 --- !u!95 &5790063201284738147
 Animator:
   serializedVersion: 7
@@ -259,14 +259,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dropItems:
   - itemPrefab: {fileID: 4427769333150818534, guid: f3f8612cb8a441144ba24ebfedfe670a, type: 3}
-    dropChance: 0.7
+    dropChance: 0.2
+  - itemPrefab: {fileID: 6123770805160447851, guid: 149de5c64153d4f4fb1cce192626507b, type: 3}
+    dropChance: 0.2
   - itemPrefab: {fileID: 760499663270023184, guid: 03ccdb60d4259f148a0f3856e0599305, type: 3}
     dropChance: 0.2
   - itemPrefab: {fileID: 3511374480834253563, guid: 82507f9478e9ef143bff12551d857c1b, type: 3}
     dropChance: 0.2
   - itemPrefab: {fileID: 5343602737243223152, guid: 5441059205749994c8e08fb3c54526b0, type: 3}
-    dropChance: 0.2
-  - itemPrefab: {fileID: 6123770805160447851, guid: 149de5c64153d4f4fb1cce192626507b, type: 3}
     dropChance: 0.2
 --- !u!1001 &5914315572477291209
 PrefabInstance:

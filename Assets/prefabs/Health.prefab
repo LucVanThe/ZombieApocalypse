@@ -106,7 +106,7 @@ MonoBehaviour:
   itemName: Health
   quantity: 4
   itemSprite: {fileID: -1381244147, guid: b67d01a2565a4054cbbfb007ea0b0edf, type: 3}
-  typeItem: 6
+  typeItem: 7
   gunType: 2
 --- !u!61 &9150267786604878450
 BoxCollider2D:

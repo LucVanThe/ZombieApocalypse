@@ -70,8 +70,8 @@ public class ItemSlot : MonoBehaviour,IPointerClickHandler
     {
         if (thisitemSelect)
         {
-            inventoryManager.UseItem(itemName); 
-            this.quantity -= 1;
+            inventoryManager.UseItem(itemName);
+            this.quantity = Mathf.Max(0, this.quantity - 1);
             quantitytext.text = this.quantity.ToString();
             if (this.quantity <= 0)
             {
@@ -89,6 +89,7 @@ public class ItemSlot : MonoBehaviour,IPointerClickHandler
 
     private void EmptyLost()
     {
+        itemName = "";
         quantitytext.enabled = false;
         image.sprite = null;
     }
@@ -108,8 +109,8 @@ public class ItemSlot : MonoBehaviour,IPointerClickHandler
 
         itemtoDrop.AddComponent<BoxCollider2D>();
 
-        itemtoDrop.transform.position = GameObject.FindWithTag("Player").transform.position +new Vector3(0.5f,0,0);
-        this.quantity -= 1;
+        itemtoDrop.transform.position = GameObject.FindWithTag("Player").transform.position +new Vector3(2f,0,0);
+        this.quantity = Mathf.Max(0, this.quantity - 1);
         quantitytext.text = this.quantity.ToString();
         if (this.quantity <= 0)
         {
