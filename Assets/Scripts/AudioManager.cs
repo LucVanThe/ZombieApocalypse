@@ -8,7 +8,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip footstep;
     [SerializeField] private AudioSource BackgroundAudio;
     [SerializeField] private AudioSource BossAudio; 
-    [SerializeField] private AudioSource ZombieAudio;
+   // [SerializeField] private AudioSource ZombieAudio;
     public void shotPlay()
     {
         effectAudioSource.PlayOneShot(shotClip);
@@ -31,8 +31,8 @@ public class AudioManager : MonoBehaviour
         BackgroundAudio.Stop();
         BossAudio.Play();
     }
-    public void ZombiePlay()
-    {
-        ZombieAudio.Play();
-    }
+    //public void ZombiePlay()
+    //{
+    //    ZombieAudio.Play();
+    //}
 }

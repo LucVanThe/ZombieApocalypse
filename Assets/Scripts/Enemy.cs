@@ -19,6 +19,7 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected float followRange = 5f;
     [SerializeField] protected float stopRange = 0.1f;
 
+   
     public virtual void Start()
     {
         animator = GetComponent<Animator>();
@@ -72,6 +73,7 @@ public abstract class Enemy : MonoBehaviour
         }
         else
         {
+            
             animator.SetBool("isRun", false);
             isMove = false;
         }
@@ -79,7 +81,7 @@ public abstract class Enemy : MonoBehaviour
         lastPosition = currentPosition;
     }
 
-    protected void FlipEnemy()
+    protected virtual void FlipEnemy()
     {
         if (player != null)
         {
@@ -92,22 +94,23 @@ public abstract class Enemy : MonoBehaviour
         currentHP = Mathf.Max(currentHP, 0);
         UPdateHPbar();
         if (currentHP <= 0)
-        { 
-            animator.SetBool("isDealth", true);
-            StartCoroutine(DelayDeath());
+        {
+            
+                animator.SetBool("isDealth", true);
+                StartCoroutine(DelayDeath());
+            
+           
         }
     }
     public IEnumerator DelayDeath()
     {
         float delay = animator.GetCurrentAnimatorStateInfo(0).length;
-        yield return new WaitForSeconds(delay);
-        
+        yield return new WaitForSeconds(delay);        
         Die();
     }
 
     protected virtual void Die()
     {
-       
         Destroy(gameObject);
     }
     protected void UPdateHPbar()

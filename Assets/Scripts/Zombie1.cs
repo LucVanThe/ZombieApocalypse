@@ -36,7 +36,7 @@ public class Zombie1 : Enemy
 
             if (distance <= followRange && distance > stopRange)
             {
-                AudioManager.ZombiePlay();
+                //AudioManager.ZombiePlay();
                 transform.position = Vector2.MoveTowards(
                     transform.position,
                     player.transform.position,

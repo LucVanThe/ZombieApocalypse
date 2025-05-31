@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 3514998396508732517}
   - component: {fileID: 4489573527045037863}
   - component: {fileID: 472397252502951212}
-  - component: {fileID: 1374883663078197578}
   - component: {fileID: 5579815373633353328}
   m_Layer: 3
   m_Name: helicopter_0
@@ -220,31 +219,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 6.852783, y: 2.6666667}
   m_EdgeRadius: 0
---- !u!114 &1374883663078197578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7459510013967740766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0692988764f228e4288d82ad23ab07ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movespeed: 4
-  MaxHp: 300
-  currentHP: 0
-  HPbar: {fileID: 3776699799019953118}
-  Enterdamage: 10
-  Staydamage: 1
-  isMove: 0
-  followRange: 20
-  stopRange: 7
-  bulletPrefabs: {fileID: 3424150753513950412, guid: fdfd60278511f4146a2f1a419c00d96c, type: 3}
-  firepoint: {fileID: 8402138831340198744}
-  speedbullet: 10
-  skillCD: 2
 --- !u!114 &5579815373633353328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,10 +231,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daa9ce2362124734bb7a78696cb4c06c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  heightOffset: 5
+  movespeed: 2
+  MaxHp: 100
+  currentHP: 0
+  HPbar: {fileID: 3776699799019953118}
+  Enterdamage: 10
+  Staydamage: 1
+  isMove: 0
+  followRange: 20
+  stopRange: 6
+  bulletPrefabs: {fileID: 3424150753513950412, guid: fdfd60278511f4146a2f1a419c00d96c, type: 3}
+  firepoint: {fileID: 8402138831340198744}
+  speedbullet: 10
+  skillCD: 5
+  heightOffsetX: 12
+  heightOffsetY: 6
+  heightSoilder: 6
   minienemy: {fileID: 1465455982180627051, guid: f47ee47b2f358804cb8063c2adf8d6fe, type: 3}
-  skillCD: 4
+  skillCDsoilder: 10
   ExploPrefabs: {fileID: 9001891217453448808, guid: 2646e40b28d6657428995adca16f33c2, type: 3}
 --- !u!1001 &2549304025358127830
 PrefabInstance:
