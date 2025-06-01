@@ -3,12 +3,12 @@ using UnityEngine;
 public class MiniDemonScript : MonoBehaviour
 {
     [SerializeField] private float energy = 20f;
-    private BossDemon bossRef;
+    private BossMecha bossRef;
     private Enemy enemy;
     private bool isDealth =false;
     private void Start()
     {
-        bossRef = FindAnyObjectByType<BossDemon>();
+        bossRef = FindAnyObjectByType<BossMecha>();
         enemy = GetComponent<Enemy>();
     }
     private void Update()
@@ -26,7 +26,7 @@ public class MiniDemonScript : MonoBehaviour
             if (bossRef != null)
             {
                 Debug.Log("tim thay boss");
-                bossRef.TruNangLuong(energy);
+               bossRef.TruNangLuong(energy);
             }
             isDealth = true;
         }

@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\SaveManager.cs" />
     <Compile Include="Assets\Scripts\Cursormanager.cs" />
+    <Compile Include="Assets\BossMecha.cs" />
     <Compile Include="Assets\Scripts\EnemyDropItem.cs" />
     <Compile Include="Assets\Scripts\bulletAR.cs" />
     <Compile Include="Assets\TankPanzer.cs" />

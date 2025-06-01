@@ -354,6 +354,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4159754058623297296, guid: 1cd8d6328aae1af4a93559d5867d9693, type: 3}
   firePoint: {fileID: 1097912336163178107}
   skillCD: 5
+  ExploPrefabs: {fileID: 9001891217453448808, guid: 2646e40b28d6657428995adca16f33c2, type: 3}
   directionSprites:
   - {fileID: 21300000, guid: b60683d8a53acaa49b3cb1c5ccbc99a4, type: 3}
   - {fileID: 21300000, guid: 53b56734a53c64a4289cf77aeb0b1ef6, type: 3}

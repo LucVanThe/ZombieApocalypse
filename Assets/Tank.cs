@@ -7,6 +7,7 @@ public class Tank :Enemy
     public Transform firePoint;
     [SerializeField] private float skillCD = 2f;
     private float nextSkillTime = 0f;
+    [SerializeField] private GameObject ExploPrefabs;
     public enum Direction
     {
         Up, Down, Left, Right,
@@ -21,7 +22,16 @@ public class Tank :Enemy
         MoveToPlayer();
     }
 
-
+   
+    private void CreateExplosion()
+    {
+        Instantiate(ExploPrefabs, transform.position, Quaternion.identity);
+    }
+    protected override void Die()
+    {
+        CreateExplosion();
+        base.Die();
+    }
     void ShootAtPlayer()
     {
         GameObject player = GameObject.FindWithTag("Player");

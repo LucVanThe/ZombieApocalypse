@@ -6,20 +6,15 @@ public class BossDemon : Enemy
 {
     
     [SerializeField] private float HoiHP = 100f;
-    [SerializeField] private GameObject kedich1;
     [SerializeField] private GameObject kedich2,kedich3;
     [SerializeField] private float skillCD=5f;
     private float nexttimeskill = 0f;
-    public float totalEnergy = 100f;
-    private float currentEnergy;
-    protected bool isStunned = false;
-    //public Animator animator;
-    [SerializeField] private Image Enerybar;
+   
     private Enemy enemy;
     public override void Start()
     {
         base.Start();
-        currentEnergy = totalEnergy;
+       
       //  animator = GetComponent<Animator>();
     }
     protected override void Update()
@@ -32,7 +27,7 @@ public class BossDemon : Enemy
     }
     protected override void MoveToPlayer()
     {
-        if (player != null && !isStunned)
+        if (player != null)
         {
             float distance = Vector2.Distance(transform.position, player.transform.position);
 
@@ -68,9 +63,7 @@ public class BossDemon : Enemy
             return;
         }
 
-        float finalDamage = isStunned ? damage * 2f : damage;
-
-        currentHP -= finalDamage;
+        currentHP -= damage;
         currentHP = Mathf.Max(currentHP, 0);
         UPdateHPbar();
 
@@ -79,45 +72,6 @@ public class BossDemon : Enemy
             animator.SetBool("isDealth", true);
             StartCoroutine(DelayDeath());
         }
-    }
-    public void TruNangLuong(float amount)
-    {
-        currentEnergy -= amount;
-        UPdateEnerybar();
-        if (currentEnergy <= 0 && !isStunned)
-        {
-            Choang(10);         
-        }
-    }
-    public virtual void Choang(float duration)
-    {
-        if (!isStunned)
-        {
-            StartCoroutine(Thoigianchoang(duration));
-        }
-    }
-    private IEnumerator Thoigianchoang(float duration)
-    {
-        isStunned = true;
-        Debug.Log($"{gameObject.name} bị choáng trong {duration} giây!");
-        MoveToPlayer();
-        animator.SetBool("isStun", true);
-        yield return new WaitForSeconds(duration);
-        isStunned = false;
-        currentEnergy = totalEnergy;
-        UPdateEnerybar();
-        animator.SetBool("isStun", false);
-    }
-    protected void UPdateEnerybar()
-    {
-        if (Enerybar != null)
-        {
-            Enerybar.fillAmount = currentEnergy / totalEnergy;
-        }
-    }
-    public bool IsStunned()
-    {
-        return isStunned;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -141,10 +95,7 @@ public class BossDemon : Enemy
         }
     }
     
-    private void taokedich1()
-    {
-        Instantiate(kedich1, transform.position, Quaternion.identity);
-    }
+   
     private void taokedich2()
     {
         Instantiate(kedich2, transform.position, Quaternion.identity);
@@ -171,13 +122,12 @@ public class BossDemon : Enemy
     }
     private void chonskillngaunhien()
     {
-        int randomskill = Random.Range(0, 4);
+        int randomskill = Random.Range(0, 3);
         switch (randomskill)
         {
-            case 0: taokedich2();break;
-            case 1: taokedich1(); break;
-            case 2: hoimau(HoiHP); break;
-            case 3: dichchuyen(); break;
+            case 0: taokedich2();break;        
+            case 1: hoimau(HoiHP); break;
+            case 2: dichchuyen(); break;
         }
     }
     private void sudungskill()

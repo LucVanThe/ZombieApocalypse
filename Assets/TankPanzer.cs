@@ -7,6 +7,7 @@ public class TankPanzer : Enemy
     public Transform firePoint;
     [SerializeField] private float skillCD = 2f;
     private float nextSkillTime = 0f;
+    [SerializeField] private GameObject ExploPrefabs;
     public enum Direction
     {
         Up, Down, Left, Right,
@@ -20,7 +21,15 @@ public class TankPanzer : Enemy
         base.Update();
         MoveToPlayer();
     }
-
+    private void CreateExplosion()
+    {
+        Instantiate(ExploPrefabs, transform.position, Quaternion.identity);
+    }
+    protected override void Die()
+    {
+        CreateExplosion();
+        base.Die();
+    }
 
     void ShootAtPlayer()
     {
