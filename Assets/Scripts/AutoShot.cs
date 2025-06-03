@@ -67,6 +67,7 @@ public class AutoShot : MonoBehaviour
             rb.linearVelocity = direction * speedbullet;
            
         }
-        
+        animator.SetBool("isRun", false);
+        animator.SetBool("isShot", true);
     }
 }

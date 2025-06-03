@@ -26,21 +26,17 @@ public class FollowPlayer : MonoBehaviour
     {
         if (player == null) return;
 
-       
+        Transform targetToLookAt = FindClosestEnemyInRange();
+        if (targetToLookAt == null)
+        {
+            Debug.Log(targetToLookAt);
+            targetToLookAt = player;
+        }
         float distance = Vector2.Distance(transform.position, player.position);
         if (distance > followDistance && distance<= followDistancemax)
         {
             transform.position = Vector2.MoveTowards(transform.position, player.position, followSpeed * Time.deltaTime);
-        }
-
-     
-        Transform targetToLookAt = FindClosestEnemyInRange();
-        if (targetToLookAt == null)
-        {
-            targetToLookAt = player;
-        }
-
-      
+        } 
         Vector3 dir = targetToLookAt.position - transform.position;
         if (dir.x > 0)
             transform.localScale = new Vector3(1, 1, 1);
@@ -50,10 +46,20 @@ public class FollowPlayer : MonoBehaviour
       
         Vector2 currentPosition = transform.position;
         Vector2 movement = currentPosition - lastPosition;
-        bool isMoving = movement.sqrMagnitude > 0.001f;
+       // bool isMoving = ;
+        if (movement.sqrMagnitude > 0f)
+        {
+            animator.SetBool("isRun", true);
+            animator.SetBool("isShot", false);
 
-        animator.SetBool("isRun", isMoving);
-        animator.SetBool("isShot", false);
+        }
+        else
+        {
+            animator.SetBool("isRun", false);
+
+        }
+      //  animator.SetBool("isRun", isMoving);
+      //  animator.SetBool("isShot", false);
         lastPosition = currentPosition;
     }
     Transform FindClosestEnemyInRange()
