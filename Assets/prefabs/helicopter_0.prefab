@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movespeed: 2
-  MaxHp: 100
+  MaxHp: 500
   currentHP: 0
   HPbar: {fileID: 3776699799019953118}
   Enterdamage: 10

@@ -63,36 +63,32 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Gamepoint.cs" />
     <Compile Include="Assets\Scripts\Gun.cs" />
-    <Compile Include="Assets\TankBullet.cs" />
     <Compile Include="Assets\Scripts\MiniDemonScript.cs" />
-    <Compile Include="Assets\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\GameUI.cs" />
     <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\BossTheme.cs" />
     <Compile Include="Assets\Scripts\ExplosionZombie.cs" />
     <Compile Include="Assets\Scripts\Shotenemy.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\SaveManager.cs" />
     <Compile Include="Assets\Scripts\Cursormanager.cs" />
-    <Compile Include="Assets\BossMecha.cs" />
     <Compile Include="Assets\Scripts\EnemyDropItem.cs" />
     <Compile Include="Assets\Scripts\bulletAR.cs" />
-    <Compile Include="Assets\TankPanzer.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\EquipmentSlot.cs" />
-    <Compile Include="Assets\tankturret.cs" />
     <Compile Include="Assets\Scripts\ItemSO.cs" />
     <Compile Include="Assets\Scripts\AutoShot.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\SaveData.cs" />
+    <Compile Include="Assets\Scripts\TankPanzer.cs" />
     <Compile Include="Assets\Scripts\EquipmentSO.cs" />
-    <Compile Include="Assets\Tank.cs" />
     <Compile Include="Assets\Scripts\BossDemon.cs" />
     <Compile Include="Assets\Scripts\EnemyBasic2.cs" />
     <Compile Include="Assets\Scripts\InventoryManager.cs" />
+    <Compile Include="Assets\Scripts\tankturret.cs" />
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\EnemyBullet.cs" />
     <Compile Include="Assets\Scripts\EquippedSlot.cs" />
-    <Compile Include="Assets\SaveGamePoint.cs" />
     <Compile Include="Assets\Scripts\BossEnemy1.cs" />
     <Compile Include="Assets\Scripts\helicopter.cs" />
     <Compile Include="Assets\Scripts\AnimatorOverrider.cs" />
@@ -101,10 +97,14 @@
     <Compile Include="Assets\Scripts\Explosion.cs" />
     <Compile Include="Assets\Scripts\EquipmenrSoBly.cs" />
     <Compile Include="Assets\Scripts\Zombie1.cs" />
+    <Compile Include="Assets\Scripts\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PlayerStat.cs" />
     <Compile Include="Assets\Scripts\Mine.cs" />
-    <Compile Include="Assets\BossTheme.cs" />
+    <Compile Include="Assets\Scripts\Tank.cs" />
+    <Compile Include="Assets\Scripts\BossMecha.cs" />
+    <Compile Include="Assets\Scripts\SaveGamePoint.cs" />
+    <Compile Include="Assets\Scripts\TankBullet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

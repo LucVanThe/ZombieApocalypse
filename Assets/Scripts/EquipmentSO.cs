@@ -4,8 +4,10 @@ public class EquipmentSO : ScriptableObject
 {
     public string itemName;
     public float health, attack, speed,shotdelay,reloadtime;
+   
     public void EquipItem()
     {
+        Player player = GameObject.Find("Player").GetComponent<Player>();
         PlayerStat playerStat = GameObject.Find("StatManager").GetComponent<PlayerStat>();
         playerStat.health += health;
         playerStat.attack += attack;
@@ -13,21 +15,25 @@ public class EquipmentSO : ScriptableObject
         playerStat.shotdelay += shotdelay;
         playerStat.shotdelay = Mathf.Max(0.1f, playerStat.shotdelay);
         playerStat.reloadtime += reloadtime;
+        player.currentHP += health;
         playerStat.UpdateEquipStat();
     }
     public void UnEquipItem()
     {
+        Player player = GameObject.Find("Player").GetComponent<Player>();
         PlayerStat playerStat = GameObject.Find("StatManager").GetComponent<PlayerStat>();
         playerStat.health -= health;
         playerStat.attack -= attack;
         playerStat.speed -= speed;
         playerStat.shotdelay -= shotdelay;
          playerStat.reloadtime -= reloadtime;
+        player.currentHP -= health;
+        player.currentHP = Mathf.Max(player.currentHP, 1f);
         playerStat.UpdateEquipStat();
     }
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame

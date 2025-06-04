@@ -73,8 +73,13 @@ public class helicopter : Enemy
     }
     private void CreateZombie()
     {
-        Vector3 spawnPosition = transform.position + Vector3.down * heightSoilder;
-        Instantiate(minienemy, spawnPosition, Quaternion.identity);
+        float distance = Vector2.Distance(transform.position, player.transform.position);
+        if (distance <= followRange)
+        {
+            Vector3 spawnPosition = transform.position + Vector3.down * heightSoilder;
+            Instantiate(minienemy, spawnPosition, Quaternion.identity);
+
+        }
     }
     private void useskill()
     {

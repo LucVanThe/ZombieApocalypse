@@ -98,8 +98,13 @@ public class BossDemon : Enemy
    
     private void taokedich2()
     {
-        Instantiate(kedich2, transform.position, Quaternion.identity);
-        Instantiate(kedich3, transform.position, Quaternion.identity);
+        float distance = Vector2.Distance(transform.position, player.transform.position);
+        if (distance <= followRange )
+        {
+            Instantiate(kedich2, transform.position, Quaternion.identity);
+            Instantiate(kedich3, transform.position, Quaternion.identity);
+        }
+        
     }
 
     private void hoimau( float HoiHP)

@@ -5,6 +5,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioSource effectAudioSource;
     [SerializeField] private AudioClip shotClip;
     [SerializeField] private AudioClip reLoadClip;
+    [SerializeField] private AudioClip tankFire;
     [SerializeField] private AudioClip footstep;
     [SerializeField] private AudioSource BackgroundAudio;
     [SerializeField] private AudioSource BossAudio; 
@@ -20,6 +21,10 @@ public class AudioManager : MonoBehaviour
     public void FootStep()
     {
         effectAudioSource.PlayOneShot(footstep);
+    }
+    public void TankFire()
+    {
+        effectAudioSource.PlayOneShot(tankFire);
     }
     public void BackgroundPlay()
     {

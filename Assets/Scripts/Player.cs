@@ -50,6 +50,7 @@ public class Player : MonoBehaviour
     public void UpdateHP()
     {
         maxHP = baseHp + playerStat.health;
+        UPdateHPbar();
         movespeed = basespeed + playerStat.speed;
         
     }

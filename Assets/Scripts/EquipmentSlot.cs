@@ -143,8 +143,8 @@ public class EquipmentSlot : MonoBehaviour, IPointerClickHandler
     }
     private void EmptyLost()
     {
-        this.itemName = "";
-        this.itemtypecolor = "";
+        this.itemName = null;
+        this.itemtypecolor = null;
         this.quantity = 0;
         image.sprite = null ;
         isFull = false;

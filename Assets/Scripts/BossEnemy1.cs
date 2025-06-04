@@ -31,7 +31,13 @@ public class BossEnemy1 : Enemy
     }
     private void CreateZombie()
     {
-        Instantiate(minienemy, transform.position,Quaternion.identity);
+        float distance = Vector2.Distance(transform.position, player.transform.position);
+        if (distance <= followRange)
+        {
+            Instantiate(minienemy, transform.position, Quaternion.identity);
+
+        }
+        
     }
     private void HoiMau(float health)
     {

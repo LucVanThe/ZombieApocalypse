@@ -180,4 +180,3 @@ MonoBehaviour:
   quantity: 1
   itemSprite: {fileID: 4115725039490428200, guid: 72ecb2f1518668141a11fd3ca5e46d94, type: 3}
   typeItem: 3
-  gunType: 2

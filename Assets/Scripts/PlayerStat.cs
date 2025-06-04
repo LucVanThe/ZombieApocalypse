@@ -14,13 +14,11 @@ public class PlayerStat : MonoBehaviour
         gun = GameObject.Find("Gun").GetComponent<Gun>();
         player = GameObject.Find("Player").GetComponent<Player>();
         UpdateEquipStat();
+        healthText.text = player.currentHP + " / " + health.ToString();
     }
     public void UpdateEquipStat()
     {     
-        healthText.text = health.ToString();
-        speedText.text = speed.ToString();
-        atackText.text = attack.ToString();
-        shotdelaytext.text = shotdelay.ToString();
+       
         if (weapon != null)
         {
             weapon.UpdateDamage();
@@ -28,6 +26,7 @@ public class PlayerStat : MonoBehaviour
         if (player != null)
         {
             player.UpdateHP();
+           
         }
         if (gun != null)
         {
@@ -35,5 +34,13 @@ public class PlayerStat : MonoBehaviour
             gun.UpdateShotdelay();
             Debug.Log("tim thay sung");
         }
+        healthText.text = player.currentHP +" / " + health.ToString();
+        speedText.text = speed.ToString();
+        atackText.text = attack.ToString();
+        shotdelaytext.text = shotdelay.ToString();
+    }
+    private void Update()
+    {
+        healthText.text = player.currentHP + " / " + health.ToString();
     }
 }
