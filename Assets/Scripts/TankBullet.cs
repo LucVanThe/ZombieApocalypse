@@ -19,20 +19,22 @@ public class TankBullet : MonoBehaviour
 
     void Update()
     {
-        if (!isInitialized) return;
-
-        
+        if (!isInitialized) return;     
         Vector3 direction = (targetPosition - transform.position).normalized;
-        transform.position += direction * speed * Time.deltaTime;
-
-       
+        transform.position += direction * speed * Time.deltaTime;    
         if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
         {
             Explode();
         }
     }
-
-    void Explode()
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Explode();
+        }
+    }
+        void Explode()
     {
         if (explosionEffect != null)
         {

@@ -22,4 +22,11 @@ public class EnemyBullet : MonoBehaviour
             transform.position += moveDirection * Time.deltaTime;
         }
     }
-}
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
+    }
+    }
