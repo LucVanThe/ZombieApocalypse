@@ -207,7 +207,7 @@ MonoBehaviour:
   Enterdamage: 10
   Staydamage: 1
   isMove: 0
-  followRange: 8
+  followRange: 14
   stopRange: 0.1
 --- !u!114 &831591896295161016
 MonoBehaviour:

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AoGiapTrang 1
   m_EditorClassIdentifier: 
   itemName: AoGiapTrangHangNang
-  health: 8888
+  health: 100
   attack: 8
   speed: -0.5
   shotdelay: 0

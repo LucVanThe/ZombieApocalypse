@@ -207,7 +207,7 @@ MonoBehaviour:
   Enterdamage: 10
   Staydamage: 1
   isMove: 0
-  followRange: 8
+  followRange: 14
   stopRange: 0.1
   ExploPrefabs: {fileID: 9001891217453448808, guid: 2646e40b28d6657428995adca16f33c2, type: 3}
 --- !u!114 &1769690010132223552
